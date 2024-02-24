@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #D4DDED;
+  margin: 0 auto;
+  font-family: "latolight", Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.6em;
+}
+header{
+
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-end
+}
+header p{
+  background-color: bisque;
+  width: 100%;
+  padding-left: 15px;
+  margin-bottom: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.conecteSe{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.orkut{
+  width: 70%;
+  height: 80vh;
+  margin-left: 7px;
+  border: #d3d1d1 solid;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+span{
+  color: #f020b1;
+  font-weight: bold;
+}
+.conecteSe img{
+ width: 20vw;
+}
+.border{
+  width: 45%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 7px;
+}
+.login{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: aliceblue solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+form{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.input1{
+  width: 15vw;
+  height: 3.5vh;
+}
+.checkbox{
+  font-size: smaller;
+}
+button{
+  width: 3vw;
+  height: 3vh;
+  margin-bottom: 10px;
+}
+.signIn{
+  width: 100%;
+  height: vh;
+  margin-top: 1em;
+  text-align: center;
+  border: aliceblue solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  background-color: #658bdf;
+  gap: 10px;
+}
